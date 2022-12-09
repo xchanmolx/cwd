@@ -1,3 +1,9 @@
+.main-body {
+    margin: auto;
+    width: 50%;
+    margin-top: 16px;
+}
+
 .head {
     display: block;
     margin-left: auto;
@@ -9,10 +15,4 @@
 .begin {
     width: 50%;
     padding: 6px;
-}
-
-.main-body {
-    margin: auto;
-    width: 50%;
-    margin-top: 16px;
 }
