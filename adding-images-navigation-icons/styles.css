@@ -1,6 +1,18 @@
-.center {
+.head {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 16px;
+}
+
+.begin {
+    width: 50%;
+    padding: 6px;
+}
+
+.main-body {
+    margin: auto;
+    width: 50%;
+    margin-top: 16px;
 }
