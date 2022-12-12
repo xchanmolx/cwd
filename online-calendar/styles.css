@@ -13,7 +13,7 @@
 }
 
 table {
-    padding-inline-end: 30px;
+    padding-inline-end: 60px;
 }
 
 th {
@@ -29,13 +29,13 @@ img {
 .prev-vertical-center {
     margin: 0;
     position: absolute;
-    top: 50%;
-    left: 90px;
+    top: 30%;
+    left: 160px;
 }
 
 .next-vertical-center {
     margin: 0;
     position: absolute;
-    top: 50%;
-    right: 120px;
+    top: 30%;
+    right: 200px;
 }
