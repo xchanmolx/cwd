@@ -1,0 +1,41 @@
+.main-body {
+    color: blue;
+}
+
+.header {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    padding-inline-end: 30px;
+}
+
+th {
+    border: 1px solid;
+    border-color: white;
+    padding: 6px;
+}
+
+img {
+    height: 60px;
+}
+
+.prev-vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 90px;
+}
+
+.next-vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 120px;
+}
