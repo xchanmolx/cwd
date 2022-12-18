@@ -1,0 +1,16 @@
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding: 6px;
+}
+
+body {
+    padding: 30px;
+    background-color: aqua;
+}
+
+.register {
+    position: absolute;
+    right: 1475px;
+}

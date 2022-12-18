@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Designing Form</title>
+</head>
+    <body>
+        <h1>Registration Form</h1>
+        <p>Please fill out the form below to register for our site. Fields with bold labels are required.</p>
+        <form>
+            <strong><label for="username">Username:</label></strong> <input type="text" name="username"><br>
+            <strong><label for="gender">Gender:</label></strong> 
+            <input type="radio" name="gender" value="male"> male
+            <input type="radio" name="gender" value="female"> female<br>
+            <strong><label for="os">Operating System:</label></strong> 
+            <select name="os">
+                <option value="windows">Windows</option>
+                <option value="macos">Mac OS</option>
+                <option value="linux">Linux</option>
+                <option value="other">Other ...</option>
+            </select><br>
+            <label for="camera">Toys:</label> <input type="checkbox" id="camera" name="camera" value="Camera"> Digital Camera <br>
+            <label for="mp3"></label> <input type="checkbox" id="mp3" name="mp3" value="Player"> MP3 Player <br>
+            <label for="lan"></label> <input type="checkbox" id="lan" name="lan" value="LAN"> Wireless LAN <br>
+            <label for="file">Portrait:</label> <input type="text" name="file"> <button>Browse...</button> <br>
+            <label for="biography">Mini Biography:</label> <textarea name="biography" id="bio" cols="30" rows="10"></textarea> <br>
+            <button class="register">register</button>
+        </form>
+    </body>
+</html>
